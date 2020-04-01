@@ -79,7 +79,7 @@ describe('${ComponentName}', () => {
   {
     filename: path.join('../../packages/theme-chalk/src', `${componentname}.scss`),
     content: `@import "mixins/mixins";
-@import "common/var";
+@import "common/init";
 
 @include b(${componentname}) {
 }`
