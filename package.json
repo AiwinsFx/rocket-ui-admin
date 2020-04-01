@@ -1,6 +1,6 @@
 {
   "name": "lhb-ceshi-ui",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Component Library for Vue.js.",
   "main": "lib/lhb-ceshi-ui.common.js",
   "files": [
@@ -21,7 +21,7 @@
     "gen:cssfile": "node build/bin/gen-cssfile",
     "gen:indices": "node build/bin/gen-indices",
     "iconInit": "node build/bin/iconInit.js",
-    "close":"xl_close_port -p 8086",
+    "close": "xl_close_port -p 8086",
     "bootstrap": "yarn || npm i",
     "build:file": "node build/bin/iconInit.js & node build/bin/build-entry.js & node build/bin/i18n.js & node build/bin/version.js",
     "build:theme": "node build/bin/gen-cssfile && gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",
