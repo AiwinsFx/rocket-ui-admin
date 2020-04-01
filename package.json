@@ -11,6 +11,7 @@
   ],
   "typings": "types/index.d.ts",
   "scripts": {
+    "scss":"node build/bin/gen-scss.js",
     "config": "node build/config.js",
     "common": "node build/common.js",
     "new": "node build/bin/new.js",
