@@ -1,6 +1,6 @@
 {
   "name": "lhb-ceshi-ui",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Component Library for Vue.js.",
   "main": "lib/lhb-ceshi-ui.common.js",
   "files": [
@@ -11,7 +11,7 @@
   ],
   "typings": "types/index.d.ts",
   "scripts": {
-    "scss":"node build/bin/gen-scss.js",
+    "scss": "node build/bin/gen-scss.js",
     "config": "node build/config.js",
     "common": "node build/common.js",
     "new": "node build/bin/new.js",
