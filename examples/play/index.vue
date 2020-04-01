@@ -1,6 +1,7 @@
 <template>
   <div style="margin: 20px;">
     <el-input v-model="input" placeholder="请输入内容"></el-input>
+    <el-tag class="tags" type="success">标签二</el-tag>
   </div>
 </template>
 
@@ -13,3 +14,6 @@
     }
   };
 </script>
+<style lang="scss">
+
+</style>
