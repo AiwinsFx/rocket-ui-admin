@@ -568,7 +568,7 @@ $--tag-warning-color: $--color-warning !default;
 $--tag-danger-color: $--color-danger !default;
 
 $--tag-font-size: 12px !default;
-$--tag-border-radius: 4px !default;
+$--tag-border-radius: $--border-radius-base !default;
 $--tag-padding: 0 10px !default;
 
 /* Tree
