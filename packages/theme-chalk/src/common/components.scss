@@ -3,7 +3,7 @@
 /* Checkbox
 -------------------------- */
 
-$--checkbox-font-size: 14px !default;
+$--checkbox-font-size: $--color-primary !default;
 
 $--checkbox-font-weight: $--font-weight-primary !default;
 
@@ -142,7 +142,7 @@ $--select-multiple-input-color: #666 !default;
 
 $--select-input-focus-border-color: $--color-primary !default;
 
-$--select-input-font-size: 14px !default;
+$--select-input-font-size: $--color-primary !default;
 
 $--select-option-color: $--color-text-regular !default;
 $--select-option-disabled-color: $--color-text-placeholder !default;
@@ -309,7 +309,7 @@ $--input-disabled-color: $--disabled-color-base !default;
 $--input-disabled-placeholder-color: $--color-text-placeholder !default;
 
 
-$--input-medium-font-size: 14px !default;
+$--input-medium-font-size: $--color-primary !default;
 
 $--input-medium-height: 36px !default;
 
@@ -472,7 +472,7 @@ $--dialog-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3) !default;
 
 $--dialog-title-font-size: $--font-size-large !default;
 
-$--dialog-content-font-size: 14px !default;
+$--dialog-content-font-size: $--color-primary !default;
 
 $--dialog-font-line-height: $--font-line-height-primary !default;
 
@@ -751,7 +751,7 @@ $--main-padding: 20px !default;
 /* Timeline
 --------------------------*/
 $--timeline-node-size-normal: 12px !default;
-$--timeline-node-size-large: 14px !default;
+$--timeline-node-size-large: $--color-primary !default;
 $--timeline-node-color: $--border-color-light !default;
 
 /* Backtop
@@ -805,7 +805,7 @@ $--avatar-font-color: #fff !default;
 
 $--avatar-background-color: #C0C4CC !default;
 
-$--avatar-text-font-size: 14px !default;
+$--avatar-text-font-size: $--color-primary !default;
 
 $--avatar-icon-font-size: 18px !default;
 
