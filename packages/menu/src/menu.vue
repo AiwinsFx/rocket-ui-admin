@@ -318,6 +318,7 @@
       }
     },
     mounted() {
+      console.log('导航栏');
       this.initOpenedMenu();
       this.$on('item-click', this.handleItemClick);
       this.$on('submenu-click', this.handleSubmenuClick);

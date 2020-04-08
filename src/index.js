@@ -167,7 +167,7 @@ const components = [
   Lhb,
   CollapseTransition
 ];
-
+console.log('载入的ui库');
 const install = function(Vue, opts = {}) {
   locale.use(opts.locale);
   locale.i18n(opts.i18n);
@@ -200,7 +200,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 }
 
 export default {
-  version: '1.0.8',
+  version: '1.0.9',
   locale: locale.use,
   i18n: locale.i18n,
   install,
