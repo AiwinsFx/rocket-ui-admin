@@ -42,7 +42,6 @@
         type: Number,
         default: 300
       },
-      backgroundColor: String,
       popperClass: String,
       disabled: Boolean,
       popperAppendToBody: {
