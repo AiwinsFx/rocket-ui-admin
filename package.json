@@ -1,6 +1,6 @@
 {
   "name": "rocket-ui",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "A Component Library for Vue.js.",
   "main": "lib/lhb-ceshi-ui.common.js",
   "files": [
