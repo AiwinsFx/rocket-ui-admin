@@ -6,17 +6,24 @@
     <el-button type="primary">11</el-button>
     <el-button>默认按钮</el-button>
     <lhb-select></lhb-select>
+    <lhb-input></lhb-input>
   </div>
 </template>
 
 <script>
-import LhbSelect from './comments/select/index'
+// import LhbSelect from './comments/lhb-select/ceshi'
+import LhbSelect from './comments/lhb-select/demo1'
+// import LhbSelect from './comments/select/index'
+import LhbInput from './comments/input/index'
 export default {
-  components:{LhbSelect},
+  components:{LhbSelect,LhbInput},
   data() {
     return {
       input: 'Hello Element UI!',
     }
+  },
+  mounted(){
+
   },
   methods: {
     handleOpen(key, keyPath) {

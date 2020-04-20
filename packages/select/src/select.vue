@@ -731,6 +731,7 @@
       },
 
       toggleMenu() {
+        // console.log(this.selectDisabled,this.menuVisibleOnFocus);
         if (!this.selectDisabled) {
           if (this.menuVisibleOnFocus) {
             this.menuVisibleOnFocus = false;
@@ -738,6 +739,7 @@
             this.visible = !this.visible;
           }
           if (this.visible) {
+            // console.log(this.$refs.input,this.$refs.reference);
             (this.$refs.input || this.$refs.reference).focus();
           }
         }

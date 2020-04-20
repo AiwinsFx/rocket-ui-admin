@@ -12,7 +12,7 @@ let seed = 0;
 !Vue.prototype.$isServer && on(document, 'mouseup', e => {
   nodeList.forEach(node => node[ctx].documentHandler(e, startClick));
 });
-
+// console.log('nodeList',nodeList);
 function createDocumentHandler(el, binding, vnode) {
   return function(mouseup = {}, mousedown = {}) {
     if (!vnode ||

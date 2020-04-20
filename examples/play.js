@@ -4,6 +4,7 @@ import App from './play/index.vue';
 import 'packages/theme-chalk/src/index.scss';
 
 Vue.use(Element);
+// console.log('当前环境',Vue.prototype);
 
 new Vue({ // eslint-disable-line
   render: h => h(App)
