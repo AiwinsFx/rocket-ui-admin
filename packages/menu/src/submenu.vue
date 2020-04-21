@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'lhb-ceshi-ui/src/transitions/collapse-transition';
+  import ElCollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

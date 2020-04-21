@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import scrollbarWidth from 'lhb-ceshi-ui/src/utils/scrollbar-width';
+import scrollbarWidth from 'rocket-ui-admin/src/utils/scrollbar-width';
 import { parseHeight } from './util';
 
 class TableLayout {

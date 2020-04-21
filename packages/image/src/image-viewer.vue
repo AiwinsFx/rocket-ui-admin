@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import { on, off } from 'lhb-ceshi-ui/src/utils/dom';
-import { rafThrottle, isFirefox } from 'lhb-ceshi-ui/src/utils/util';
+import { on, off } from 'rocket-ui-admin/src/utils/dom';
+import { rafThrottle, isFirefox } from 'rocket-ui-admin/src/utils/util';
 
 const Mode = {
   CONTAIN: {

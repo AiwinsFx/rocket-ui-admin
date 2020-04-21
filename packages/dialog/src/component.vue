@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import Popup from 'lhb-ceshi-ui/src/utils/popup';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
+  import Popup from 'rocket-ui-admin/src/utils/popup';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

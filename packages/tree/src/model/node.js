@@ -1,6 +1,6 @@
-import objectAssign from 'lhb-ceshi-ui/src/utils/merge';
+import objectAssign from 'rocket-ui-admin/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
-import { arrayFindIndex } from 'lhb-ceshi-ui/src/utils/util';
+import { arrayFindIndex } from 'rocket-ui-admin/src/utils/util';
 
 export const getChildState = node => {
   let all = true;

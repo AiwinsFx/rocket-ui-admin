@@ -1,8 +1,8 @@
 // reference https://github.com/noeldelgado/gemini-scrollbar/blob/master/index.js
 
-import { addResizeListener, removeResizeListener } from 'lhb-ceshi-ui/src/utils/resize-event';
-import scrollbarWidth from 'lhb-ceshi-ui/src/utils/scrollbar-width';
-import { toObject } from 'lhb-ceshi-ui/src/utils/util';
+import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
+import scrollbarWidth from 'rocket-ui-admin/src/utils/scrollbar-width';
+import { toObject } from 'rocket-ui-admin/src/utils/util';
 import Bar from './bar';
 
 /* istanbul ignore next */

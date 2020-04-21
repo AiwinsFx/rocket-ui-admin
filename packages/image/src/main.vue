@@ -23,9 +23,9 @@
 
 <script>
   import ImageViewer from './image-viewer';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import { on, off, getScrollContainer, isInContainer } from 'lhb-ceshi-ui/src/utils/dom';
-  import { isString, isHtmlElement } from 'lhb-ceshi-ui/src/utils/types';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import { on, off, getScrollContainer, isInContainer } from 'rocket-ui-admin/src/utils/dom';
+  import { isString, isHtmlElement } from 'rocket-ui-admin/src/utils/types';
   import throttle from 'throttle-debounce/throttle';
 
   const isSupportObjectFit = () => document.documentElement.style.objectFit !== undefined;

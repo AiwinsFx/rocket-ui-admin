@@ -1,5 +1,5 @@
-import fecha from 'lhb-ceshi-ui/src/utils/date';
-import { t } from 'lhb-ceshi-ui/src/locale';
+import fecha from 'rocket-ui-admin/src/utils/date';
+import { t } from 'rocket-ui-admin/src/locale';
 
 const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];

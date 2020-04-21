@@ -9,22 +9,22 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`lhb-ceshi-ui/packages/${key}`] = `lhb-ceshi-ui/lib/${key}`;
+  externals[`rocket-ui-admin/packages/${key}`] = `rocket-ui-admin/lib/${key}`;
 });
 
-externals['lhb-ceshi-ui/src/locale'] = 'lhb-ceshi-ui/lib/locale';
+externals['rocket-ui-admin/src/locale'] = 'rocket-ui-admin/lib/locale';
 utilsList.forEach(function(file) {
   // console.log('遍历的utilsList',file);
   file = path.basename(file, '.js');
-  externals[`lhb-ceshi-ui/src/utils/${file}`] = `lhb-ceshi-ui/lib/utils/${file}`;
+  externals[`rocket-ui-admin/src/utils/${file}`] = `rocket-ui-admin/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`lhb-ceshi-ui/src/mixins/${file}`] = `lhb-ceshi-ui/lib/mixins/${file}`;
+  externals[`rocket-ui-admin/src/mixins/${file}`] = `rocket-ui-admin/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`lhb-ceshi-ui/src/transitions/${file}`] = `lhb-ceshi-ui/lib/transitions/${file}`;
+  externals[`rocket-ui-admin/src/transitions/${file}`] = `rocket-ui-admin/lib/transitions/${file}`;
 });
 // console.log('webpack  externals',externals)
 externals = [Object.assign({
@@ -37,7 +37,7 @@ exports.alias = {
   main: path.resolve(__dirname, '../src'),
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
-  'lhb-ceshi-ui': path.resolve(__dirname, '../')
+  'rocket-ui-admin': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

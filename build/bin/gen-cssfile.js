@@ -13,7 +13,7 @@ var basepath = path.resolve(__dirname, '../../packages/');
 function fileExists(filePath) {
   // console.log('-----filePath-----'.rainbow,filePath);
   try {
-    if(filePath === '/Users/lihongbo/Documents/工作/UI库/lhb-ceshi-ui/packages/theme-chalk/src/header.scss'){
+    if(filePath === '/Users/lihongbo/Documents/工作/UI库/rocket-ui-admin/packages/theme-chalk/src/header.scss'){
       console.log('fs.statSync(filePath)',fs.statSync(filePath).isFile())
     }
     return fs.statSync(filePath).isFile();

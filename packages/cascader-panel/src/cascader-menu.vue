@@ -1,8 +1,8 @@
 <script>
-import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
+import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
 import CascaderNode from './cascader-node.vue';
-import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-import { generateId } from 'lhb-ceshi-ui/src/utils/util';
+import Locale from 'rocket-ui-admin/src/mixins/locale';
+import { generateId } from 'rocket-ui-admin/src/utils/util';
 
 export default {
   name: 'ElCascaderMenu',

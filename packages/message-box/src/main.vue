@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'lhb-ceshi-ui/src/utils/popup';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import ElInput from 'lhb-ceshi-ui/packages/input';
-  import ElButton from 'lhb-ceshi-ui/packages/button';
-  import { addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
-  import { t } from 'lhb-ceshi-ui/src/locale';
-  import Dialog from 'lhb-ceshi-ui/src/utils/aria-dialog';
+  import Popup from 'rocket-ui-admin/src/utils/popup';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import ElInput from 'rocket-ui-admin/packages/input';
+  import ElButton from 'rocket-ui-admin/packages/button';
+  import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
+  import { t } from 'rocket-ui-admin/src/locale';
+  import Dialog from 'rocket-ui-admin/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

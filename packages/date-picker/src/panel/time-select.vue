@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
-  import scrollIntoView from 'lhb-ceshi-ui/src/utils/scroll-into-view';
+  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
+  import scrollIntoView from 'rocket-ui-admin/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

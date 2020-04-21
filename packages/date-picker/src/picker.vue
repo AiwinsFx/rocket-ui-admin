@@ -85,12 +85,12 @@
 
 <script>
 import Vue from 'vue';
-import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
-import { formatDate, parseDate, isDateObject, getWeekNumber } from 'lhb-ceshi-ui/src/utils/date-util';
-import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-import ElInput from 'lhb-ceshi-ui/packages/input';
-import merge from 'lhb-ceshi-ui/src/utils/merge';
+import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+import { formatDate, parseDate, isDateObject, getWeekNumber } from 'rocket-ui-admin/src/utils/date-util';
+import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+import ElInput from 'rocket-ui-admin/packages/input';
+import merge from 'rocket-ui-admin/src/utils/merge';
 
 const NewPopper = {
   props: {

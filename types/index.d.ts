@@ -1,4 +1,4 @@
-export * from './lhb-ceshi-ui'
+export * from './rocket-ui-admin'
 
-import * as ElementUI from './lhb-ceshi-ui'
+import * as ElementUI from './rocket-ui-admin'
 export default ElementUI

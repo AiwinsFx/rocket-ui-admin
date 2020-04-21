@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["lhb-ceshi-ui"],
+          "root": ["rocket-ui-admin"],
           "alias": {
-            "lhb-ceshi-ui/src": "lhb-ceshi-ui/lib"
+            "rocket-ui-admin/src": "rocket-ui-admin/lib"
           }
         }]
       ]

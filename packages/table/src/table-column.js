@@ -1,6 +1,6 @@
 import { cellStarts, cellForced, defaultRenderCell, treeCellPrefix } from './config';
 import { mergeOptions, parseWidth, parseMinWidth, compose } from './util';
-import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
+import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
 
 let columnIdSeed = 1;
 

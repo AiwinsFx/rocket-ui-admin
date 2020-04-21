@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import { hasClass, addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
-import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
+import { hasClass, addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
+import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
 import FilterPanel from './filter-panel.vue';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

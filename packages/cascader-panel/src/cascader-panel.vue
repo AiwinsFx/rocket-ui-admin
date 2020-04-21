@@ -17,16 +17,16 @@
 <script>
 import CascaderMenu from './cascader-menu';
 import Store from './store';
-import merge from 'lhb-ceshi-ui/src/utils/merge';
-import AriaUtils from 'lhb-ceshi-ui/src/utils/aria-utils';
-import scrollIntoView from 'lhb-ceshi-ui/src/utils/scroll-into-view';
+import merge from 'rocket-ui-admin/src/utils/merge';
+import AriaUtils from 'rocket-ui-admin/src/utils/aria-utils';
+import scrollIntoView from 'rocket-ui-admin/src/utils/scroll-into-view';
 import {
   noop,
   coerceTruthyValueToArray,
   isEqual,
   isEmpty,
   valueEquals
-} from 'lhb-ceshi-ui/src/utils/util';
+} from 'rocket-ui-admin/src/utils/util';
 
 const { keys: KeyCode } = AriaUtils;
 const DefaultProps = {

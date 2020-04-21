@@ -52,10 +52,10 @@
 </template>
 
 <script>
-  import ElCheckboxGroup from 'lhb-ceshi-ui/packages/checkbox-group';
-  import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
-  import ElInput from 'lhb-ceshi-ui/packages/input';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
+  import ElCheckboxGroup from 'rocket-ui-admin/packages/checkbox-group';
+  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
+  import ElInput from 'rocket-ui-admin/packages/input';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
 
   export default {
     mixins: [Locale],

@@ -63,8 +63,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import ElProgress from 'lhb-ceshi-ui/packages/progress';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import ElProgress from 'rocket-ui-admin/packages/progress';
 
   export default {
 

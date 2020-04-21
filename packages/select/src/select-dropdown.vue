@@ -8,7 +8,7 @@
 </template>
 
 <script type="text/babel">
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
 
   export default {
     name: 'ElSelectDropdown',

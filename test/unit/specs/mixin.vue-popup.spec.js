@@ -1,4 +1,4 @@
-import VuePopup from 'lhb-ceshi-ui/src/utils/popup';
+import VuePopup from 'rocket-ui-admin/src/utils/popup';
 import { createTest, destroyVM } from '../util';
 
 const Popup = Object.assign({}, VuePopup, {

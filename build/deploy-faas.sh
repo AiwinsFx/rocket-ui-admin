@@ -10,8 +10,8 @@ SUB_FOLDER='2.13'
 mkdir -p $SUB_FOLDER
 rm -rf *.js *.css *.map static
 rm -rf $SUB_FOLDER/**
-cp -rf ../../examples/lhb-ceshi-ui/** .
-cp -rf ../../examples/lhb-ceshi-ui/** $SUB_FOLDER/
+cp -rf ../../examples/rocket-ui-admin/** .
+cp -rf ../../examples/rocket-ui-admin/** $SUB_FOLDER/
 cd ../..
 
 # deploy domestic site

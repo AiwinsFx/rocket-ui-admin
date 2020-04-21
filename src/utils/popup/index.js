@@ -1,6 +1,6 @@
 import Vue from 'vue';
-import merge from 'lhb-ceshi-ui/src/utils/merge';
-import PopupManager from 'lhb-ceshi-ui/src/utils/popup/popup-manager';
+import merge from 'rocket-ui-admin/src/utils/merge';
+import PopupManager from 'rocket-ui-admin/src/utils/popup/popup-manager';
 import getScrollBarWidth from '../scrollbar-width';
 import { getStyle, addClass, removeClass, hasClass } from '../dom';
 

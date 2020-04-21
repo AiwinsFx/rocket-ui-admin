@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  import { hasClass } from 'lhb-ceshi-ui/src/utils/dom';
-  import { isObject } from 'lhb-ceshi-ui/src/utils/types';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+  import { hasClass } from 'rocket-ui-admin/src/utils/dom';
+  import { isObject } from 'rocket-ui-admin/src/utils/types';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

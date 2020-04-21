@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'lhb-ceshi-ui/src/utils/dom';
-import { PopupManager } from 'lhb-ceshi-ui/src/utils/popup';
-import afterLeave from 'lhb-ceshi-ui/src/utils/after-leave';
-import merge from 'lhb-ceshi-ui/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'rocket-ui-admin/src/utils/dom';
+import { PopupManager } from 'rocket-ui-admin/src/utils/popup';
+import afterLeave from 'rocket-ui-admin/src/utils/after-leave';
+import merge from 'rocket-ui-admin/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

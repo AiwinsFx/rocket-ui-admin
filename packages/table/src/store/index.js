@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Watcher from './watcher';
-import { arrayFind } from 'lhb-ceshi-ui/src/utils/util';
+import { arrayFind } from 'rocket-ui-admin/src/utils/util';
 
 Watcher.prototype.mutations = {
   setData(states, data) {

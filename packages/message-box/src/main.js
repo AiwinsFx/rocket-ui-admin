@@ -35,8 +35,8 @@ const defaults = {
 
 import Vue from 'vue';
 import msgboxVue from './main.vue';
-import merge from 'lhb-ceshi-ui/src/utils/merge';
-import { isVNode } from 'lhb-ceshi-ui/src/utils/vdom';
+import merge from 'rocket-ui-admin/src/utils/merge';
+import { isVNode } from 'rocket-ui-admin/src/utils/vdom';
 
 const MessageBoxConstructor = Vue.extend(msgboxVue);
 

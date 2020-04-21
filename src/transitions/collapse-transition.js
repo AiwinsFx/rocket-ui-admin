@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
+import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

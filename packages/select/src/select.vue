@@ -134,22 +134,22 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Focus from 'lhb-ceshi-ui/src/mixins/focus';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import ElInput from 'lhb-ceshi-ui/packages/input';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Focus from 'rocket-ui-admin/src/mixins/focus';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import ElInput from 'rocket-ui-admin/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'lhb-ceshi-ui/packages/tag';
-  import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
+  import ElTag from 'rocket-ui-admin/packages/tag';
+  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'lhb-ceshi-ui/src/utils/resize-event';
-  import { t } from 'lhb-ceshi-ui/src/locale';
-  import scrollIntoView from 'lhb-ceshi-ui/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'lhb-ceshi-ui/src/utils/util';
+  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
+  import { t } from 'rocket-ui-admin/src/locale';
+  import scrollIntoView from 'rocket-ui-admin/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from 'rocket-ui-admin/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'lhb-ceshi-ui/src/utils/shared';
+  import { isKorean } from 'rocket-ui-admin/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

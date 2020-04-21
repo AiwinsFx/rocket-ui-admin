@@ -36,9 +36,9 @@
   </div>
 </template>
 <script>
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Focus from 'lhb-ceshi-ui/src/mixins/focus';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Focus from 'rocket-ui-admin/src/mixins/focus';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
 
   export default {
     name: 'ElSwitch',

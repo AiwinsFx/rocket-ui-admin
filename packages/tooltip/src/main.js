@@ -1,7 +1,7 @@
-import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
+import Popper from 'rocket-ui-admin/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'lhb-ceshi-ui/src/utils/dom';
-import { generateId } from 'lhb-ceshi-ui/src/utils/util';
+import { addClass, removeClass, on, off } from 'rocket-ui-admin/src/utils/dom';
+import { generateId } from 'rocket-ui-admin/src/utils/util';
 import Vue from 'vue';
 
 export default {

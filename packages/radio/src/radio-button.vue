@@ -35,7 +35,7 @@
   </label>
 </template>
 <script>
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
 
   export default {
     name: 'ElRadioButton',

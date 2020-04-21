@@ -1,9 +1,9 @@
-import { kebabCase } from 'lhb-ceshi-ui/src/utils/util';
+import { kebabCase } from 'rocket-ui-admin/src/utils/util';
 /**
  * Show migrating guide in browser console.
  *
  * Usage:
- * import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+ * import Migrating from 'rocket-ui-admin/src/mixins/migrating';
  *
  * mixins: [Migrating]
  *

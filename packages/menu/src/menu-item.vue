@@ -30,8 +30,8 @@
 </template>
 <script>
   import Menu from './menu-mixin';
-  import ElTooltip from 'lhb-ceshi-ui/packages/tooltip';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
+  import ElTooltip from 'rocket-ui-admin/packages/tooltip';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
 
   export default {
     name: 'ElMenuItem',

@@ -83,8 +83,8 @@ import Avatar from '../packages/avatar/index.js';
 import Drawer from '../packages/drawer/index.js';
 import Popconfirm from '../packages/popconfirm/index.js';
 import Lhb from '../packages/lhb/index.js';
-import locale from 'lhb-ceshi-ui/src/locale';
-import CollapseTransition from 'lhb-ceshi-ui/src/transitions/collapse-transition';
+import locale from 'rocket-ui-admin/src/locale';
+import CollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
 
 const components = [
   Pagination,

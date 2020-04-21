@@ -1,4 +1,4 @@
-import { once, on } from 'lhb-ceshi-ui/src/utils/dom';
+import { once, on } from 'rocket-ui-admin/src/utils/dom';
 
 export default {
   bind(el, binding, vnode) {

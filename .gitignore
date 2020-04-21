@@ -12,12 +12,12 @@ lib
 .idea
 .vscode
 .jsconfig.json
-examples/lhb-ceshi-ui
+examples/rocket-ui-admin
 examples/pages/en-US
 examples/pages/zh-CN
 examples/pages/es
 examples/pages/fr-FR
-fe.element/lhb-ceshi-ui
+fe.element/rocket-ui-admin
 .npmrc
 coverage
 waiter.config.js

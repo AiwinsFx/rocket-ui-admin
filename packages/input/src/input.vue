@@ -108,11 +108,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'lhb-ceshi-ui/src/utils/merge';
-  import {isKorean} from 'lhb-ceshi-ui/src/utils/shared';
+  import merge from 'rocket-ui-admin/src/utils/merge';
+  import {isKorean} from 'rocket-ui-admin/src/utils/shared';
 
   export default {
     name: 'ElInput',

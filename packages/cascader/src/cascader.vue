@@ -112,21 +112,21 @@
 </template>
 
 <script>
-import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
-import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
-import ElInput from 'lhb-ceshi-ui/packages/input';
-import ElTag from 'lhb-ceshi-ui/packages/tag';
-import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
-import ElCascaderPanel from 'lhb-ceshi-ui/packages/cascader-panel';
-import AriaUtils from 'lhb-ceshi-ui/src/utils/aria-utils';
-import { t } from 'lhb-ceshi-ui/src/locale';
-import { isEqual, isEmpty, kebabCase } from 'lhb-ceshi-ui/src/utils/util';
-import { isUndefined, isFunction } from 'lhb-ceshi-ui/src/utils/types';
-import { isDef } from 'lhb-ceshi-ui/src/utils/shared';
-import { addResizeListener, removeResizeListener } from 'lhb-ceshi-ui/src/utils/resize-event';
+import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+import Locale from 'rocket-ui-admin/src/mixins/locale';
+import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+import ElInput from 'rocket-ui-admin/packages/input';
+import ElTag from 'rocket-ui-admin/packages/tag';
+import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
+import ElCascaderPanel from 'rocket-ui-admin/packages/cascader-panel';
+import AriaUtils from 'rocket-ui-admin/src/utils/aria-utils';
+import { t } from 'rocket-ui-admin/src/locale';
+import { isEqual, isEmpty, kebabCase } from 'rocket-ui-admin/src/utils/util';
+import { isUndefined, isFunction } from 'rocket-ui-admin/src/utils/types';
+import { isDef } from 'rocket-ui-admin/src/utils/shared';
+import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
 import debounce from 'throttle-debounce/debounce';
 
 const { keys: KeyCode } = AriaUtils;

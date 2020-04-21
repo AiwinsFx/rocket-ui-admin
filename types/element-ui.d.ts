@@ -87,11 +87,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of lhb-ceshi-ui */
+/** The version of rocket-ui-admin */
 export const version: string
 
 /**
- * Install all lhb-ceshi-ui components into Vue.
+ * Install all rocket-ui-admin components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

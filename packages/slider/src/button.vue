@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'lhb-ceshi-ui/packages/tooltip';
+  import ElTooltip from 'rocket-ui-admin/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

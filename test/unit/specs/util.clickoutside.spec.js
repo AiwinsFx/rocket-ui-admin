@@ -1,4 +1,4 @@
-import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
+import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

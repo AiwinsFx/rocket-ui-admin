@@ -46,9 +46,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'lhb-ceshi-ui/packages/input';
-  import Focus from 'lhb-ceshi-ui/src/mixins/focus';
-  import RepeatClick from 'lhb-ceshi-ui/src/directives/repeat-click';
+  import ElInput from 'rocket-ui-admin/packages/input';
+  import Focus from 'rocket-ui-admin/src/mixins/focus';
+  import RepeatClick from 'rocket-ui-admin/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

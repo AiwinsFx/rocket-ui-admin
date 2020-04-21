@@ -1,8 +1,8 @@
 <script>
 import UploadList from './upload-list';
 import Upload from './upload';
-import ElProgress from 'lhb-ceshi-ui/packages/progress';
-import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+import ElProgress from 'rocket-ui-admin/packages/progress';
+import Migrating from 'rocket-ui-admin/src/mixins/migrating';
 
 function noop() {}
 

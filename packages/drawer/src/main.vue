@@ -47,9 +47,9 @@
 </template>
 
 <script>
-import Popup from 'lhb-ceshi-ui/src/utils/popup';
-import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-import Utils from 'lhb-ceshi-ui/src/utils/aria-utils';
+import Popup from 'rocket-ui-admin/src/utils/popup';
+import emitter from 'rocket-ui-admin/src/mixins/emitter';
+import Utils from 'rocket-ui-admin/src/utils/aria-utils';
 
 export default {
   name: 'ElDrawer',

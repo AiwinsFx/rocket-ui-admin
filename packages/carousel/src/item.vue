@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import { autoprefixer } from 'lhb-ceshi-ui/src/utils/util';
+  import { autoprefixer } from 'rocket-ui-admin/src/utils/util';
   const CARD_SCALE = 0.83;
   export default {
     name: 'ElCarouselItem',

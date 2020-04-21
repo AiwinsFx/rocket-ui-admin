@@ -1,4 +1,4 @@
-import { getValueByPath } from 'lhb-ceshi-ui/src/utils/util';
+import { getValueByPath } from 'rocket-ui-admin/src/utils/util';
 
 export const getCell = function(event) {
   let cell = event.target;

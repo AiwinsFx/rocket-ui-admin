@@ -74,10 +74,10 @@
 </template>
 
 <script type="text/babel">
-  import ElInputNumber from 'lhb-ceshi-ui/packages/input-number';
+  import ElInputNumber from 'rocket-ui-admin/packages/input-number';
   import SliderButton from './button.vue';
   import SliderMarker from './marker';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
 
   export default {
     name: 'ElSlider',

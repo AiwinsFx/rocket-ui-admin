@@ -43,14 +43,14 @@
 </template>
 
 <script type="text/babel">
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-  import { PopupManager } from 'lhb-ceshi-ui/src/utils/popup';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+  import { PopupManager } from 'rocket-ui-admin/src/utils/popup';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
   import Dropdown from './dropdown';
-  import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
-  import ElCheckboxGroup from 'lhb-ceshi-ui/packages/checkbox-group';
-  import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
+  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
+  import ElCheckboxGroup from 'rocket-ui-admin/packages/checkbox-group';
+  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
 
   export default {
     name: 'ElTableFilterPanel',

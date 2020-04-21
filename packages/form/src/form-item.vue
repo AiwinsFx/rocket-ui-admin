@@ -40,9 +40,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import objectAssign from 'lhb-ceshi-ui/src/utils/merge';
-  import { noop, getPropByPath } from 'lhb-ceshi-ui/src/utils/util';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import objectAssign from 'rocket-ui-admin/src/utils/merge';
+  import { noop, getPropByPath } from 'rocket-ui-admin/src/utils/util';
   import LabelWrap from './label-wrap';
   export default {
     name: 'ElFormItem',

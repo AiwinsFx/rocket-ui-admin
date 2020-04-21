@@ -6,7 +6,7 @@
   </transition>
 </template>
 <script>
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
 
   export default {
     name: 'ElDropdownMenu',

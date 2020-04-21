@@ -4,10 +4,10 @@ import {
   isFunction,
   isUndefined,
   isDefined
-} from 'lhb-ceshi-ui/src/utils/types';
+} from 'rocket-ui-admin/src/utils/types';
 import {
   getScrollContainer
-} from 'lhb-ceshi-ui/src/utils/dom';
+} from 'rocket-ui-admin/src/utils/dom';
 
 const getStyleComputedProperty = (element, property) => {
   if (element === window) {

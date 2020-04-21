@@ -45,9 +45,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'lhb-ceshi-ui/src/transitions/collapse-transition';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import { generateId } from 'lhb-ceshi-ui/src/utils/util';
+  import ElCollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import { generateId } from 'rocket-ui-admin/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

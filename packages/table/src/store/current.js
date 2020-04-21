@@ -1,4 +1,4 @@
-import { arrayFind } from 'lhb-ceshi-ui/src/utils/util';
+import { arrayFind } from 'rocket-ui-admin/src/utils/util';
 import { getRowIdentity } from '../util';
 
 export default {

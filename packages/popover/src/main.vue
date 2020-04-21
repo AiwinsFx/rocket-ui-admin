@@ -22,10 +22,10 @@
   </span>
 </template>
 <script>
-import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-import { on, off } from 'lhb-ceshi-ui/src/utils/dom';
-import { addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
-import { generateId } from 'lhb-ceshi-ui/src/utils/util';
+import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+import { on, off } from 'rocket-ui-admin/src/utils/dom';
+import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
+import { generateId } from 'rocket-ui-admin/src/utils/util';
 
 export default {
   name: 'ElPopover',

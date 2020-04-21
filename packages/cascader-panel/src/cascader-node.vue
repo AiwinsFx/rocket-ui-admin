@@ -1,7 +1,7 @@
 <script>
-  import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
-  import ElRadio from 'lhb-ceshi-ui/packages/radio';
-  import { isEqual } from 'lhb-ceshi-ui/src/utils/util';
+  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
+  import ElRadio from 'rocket-ui-admin/packages/radio';
+  import { isEqual } from 'rocket-ui-admin/src/utils/util';
 
   const stopPropagation = e => e.stopPropagation();
 

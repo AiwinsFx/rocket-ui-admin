@@ -42,11 +42,11 @@
 </template>
 
 <script>
-  import ElButton from 'lhb-ceshi-ui/packages/button';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
+  import ElButton from 'rocket-ui-admin/packages/button';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
   import TransferPanel from './transfer-panel.vue';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
 
   export default {
     name: 'ElTransfer',

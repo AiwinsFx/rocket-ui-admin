@@ -101,9 +101,9 @@
 </template>
 
 <script type="text/babel">
-  import { getRangeHours, getRangeMinutes, modifyTime } from 'lhb-ceshi-ui/src/utils/date-util';
-  import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
-  import RepeatClick from 'lhb-ceshi-ui/src/directives/repeat-click';
+  import { getRangeHours, getRangeMinutes, modifyTime } from 'rocket-ui-admin/src/utils/date-util';
+  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
+  import RepeatClick from 'rocket-ui-admin/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

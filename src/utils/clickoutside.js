@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'lhb-ceshi-ui/src/utils/dom';
+import { on } from 'rocket-ui-admin/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

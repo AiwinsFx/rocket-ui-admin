@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
+import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

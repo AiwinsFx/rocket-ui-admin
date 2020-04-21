@@ -213,12 +213,12 @@
 </template>
 
 <script type="text/babel">
-  import ElCheckbox from 'lhb-ceshi-ui/packages/checkbox';
+  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
   import { debounce, throttle } from 'throttle-debounce';
-  import { addResizeListener, removeResizeListener } from 'lhb-ceshi-ui/src/utils/resize-event';
-  import Mousewheel from 'lhb-ceshi-ui/src/directives/mousewheel';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+  import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
+  import Mousewheel from 'rocket-ui-admin/src/directives/mousewheel';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
   import { createStore, mapStates } from './store/helper';
   import TableLayout from './table-layout';
   import TableBody from './table-body';

@@ -1,4 +1,4 @@
-import { getPropByPath } from 'lhb-ceshi-ui/src/utils/util';
+import { getPropByPath } from 'rocket-ui-admin/src/utils/util';
 
 export const cellStarts = {
   default: {

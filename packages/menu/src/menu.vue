@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
-  import Menubar from 'lhb-ceshi-ui/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'lhb-ceshi-ui/src/utils/dom';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import Menubar from 'rocket-ui-admin/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from 'rocket-ui-admin/src/utils/dom';
 
   export default {
     name: 'ElMenu',

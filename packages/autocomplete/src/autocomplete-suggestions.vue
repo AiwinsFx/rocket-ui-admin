@@ -18,9 +18,9 @@
   </transition>
 </template>
 <script>
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import ElScrollbar from 'lhb-ceshi-ui/packages/scrollbar';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
 
   export default {
     components: { ElScrollbar },

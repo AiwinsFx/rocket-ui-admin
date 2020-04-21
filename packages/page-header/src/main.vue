@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { t } from 'lhb-ceshi-ui/src/locale';
+import { t } from 'rocket-ui-admin/src/locale';
 export default {
   name: 'ElPageHeader',
 

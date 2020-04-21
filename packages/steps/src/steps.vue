@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
+import Migrating from 'rocket-ui-admin/src/mixins/migrating';
 
 export default {
   name: 'ElSteps',

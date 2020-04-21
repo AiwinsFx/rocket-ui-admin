@@ -1,4 +1,4 @@
-import VuePopper from 'lhb-ceshi-ui/src/utils/vue-popper';
+import VuePopper from 'rocket-ui-admin/src/utils/vue-popper';
 import { createTest } from '../util';
 
 const Popper = Object.assign({}, VuePopper, {

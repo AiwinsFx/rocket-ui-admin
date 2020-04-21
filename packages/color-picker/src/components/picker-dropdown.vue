@@ -43,10 +43,10 @@
   import HueSlider from './hue-slider';
   import AlphaSlider from './alpha-slider';
   import Predefine from './predefine';
-  import Popper from 'lhb-ceshi-ui/src/utils/vue-popper';
-  import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-  import ElInput from 'lhb-ceshi-ui/packages/input';
-  import ElButton from 'lhb-ceshi-ui/packages/button';
+  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import ElInput from 'rocket-ui-admin/packages/input';
+  import ElButton from 'rocket-ui-admin/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

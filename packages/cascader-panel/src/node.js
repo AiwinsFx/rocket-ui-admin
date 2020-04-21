@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'lhb-ceshi-ui/src/utils/util';
-import { isDef } from 'lhb-ceshi-ui/src/utils/shared';
+import { isEqual, capitalize } from 'rocket-ui-admin/src/utils/util';
+import { isDef } from 'rocket-ui-admin/src/utils/shared';
 
 let uid = 0;
 

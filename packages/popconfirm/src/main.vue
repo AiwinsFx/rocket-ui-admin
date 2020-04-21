@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'lhb-ceshi-ui/packages/popover';
-import ElButton from 'lhb-ceshi-ui/packages/button';
-import {t} from 'lhb-ceshi-ui/src/locale';
+import ElPopover from 'rocket-ui-admin/packages/popover';
+import ElButton from 'rocket-ui-admin/packages/button';
+import {t} from 'rocket-ui-admin/src/locale';
 
 export default {
   name: 'ElPopconfirm',

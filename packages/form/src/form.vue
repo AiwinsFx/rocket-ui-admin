@@ -7,7 +7,7 @@
   </form>
 </template>
 <script>
-  import objectAssign from 'lhb-ceshi-ui/src/utils/merge';
+  import objectAssign from 'rocket-ui-admin/src/utils/merge';
 
   export default {
     name: 'ElForm',

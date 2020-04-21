@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'lhb-ceshi-ui/src/utils/clickoutside';
-  import Emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import Migrating from 'lhb-ceshi-ui/src/mixins/migrating';
-  import ElButton from 'lhb-ceshi-ui/packages/button';
-  import ElButtonGroup from 'lhb-ceshi-ui/packages/button-group';
-  import { generateId } from 'lhb-ceshi-ui/src/utils/util';
+  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import ElButton from 'rocket-ui-admin/packages/button';
+  import ElButtonGroup from 'rocket-ui-admin/packages/button-group';
+  import { generateId } from 'rocket-ui-admin/src/utils/util';
 
   export default {
     name: 'ElDropdown',

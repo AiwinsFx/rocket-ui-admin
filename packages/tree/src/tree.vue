@@ -34,9 +34,9 @@
   import TreeStore from './model/tree-store';
   import { getNodeKey, findNearestComponent } from './model/util';
   import ElTreeNode from './tree-node.vue';
-  import {t} from 'lhb-ceshi-ui/src/locale';
-  import emitter from 'lhb-ceshi-ui/src/mixins/emitter';
-  import { addClass, removeClass } from 'lhb-ceshi-ui/src/utils/dom';
+  import {t} from 'rocket-ui-admin/src/locale';
+  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
 
   export default {
     name: 'ElTree',

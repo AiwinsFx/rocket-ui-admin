@@ -57,12 +57,12 @@
 </template>
 
 <script>
-import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-import fecha from 'lhb-ceshi-ui/src/utils/date';
-import ElButton from 'lhb-ceshi-ui/packages/button';
-import ElButtonGroup from 'lhb-ceshi-ui/packages/button-group';
+import Locale from 'rocket-ui-admin/src/mixins/locale';
+import fecha from 'rocket-ui-admin/src/utils/date';
+import ElButton from 'rocket-ui-admin/packages/button';
+import ElButtonGroup from 'rocket-ui-admin/packages/button-group';
 import DateTable from './date-table';
-import { validateRangeInOneMonth } from 'lhb-ceshi-ui/src/utils/date-util';
+import { validateRangeInOneMonth } from 'rocket-ui-admin/src/utils/date-util';
 
 const validTypes = ['prev-month', 'today', 'next-month'];
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

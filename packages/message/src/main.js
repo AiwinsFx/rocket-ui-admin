@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import { PopupManager } from 'lhb-ceshi-ui/src/utils/popup';
-import { isVNode } from 'lhb-ceshi-ui/src/utils/vdom';
+import { PopupManager } from 'rocket-ui-admin/src/utils/popup';
+import { isVNode } from 'rocket-ui-admin/src/utils/vdom';
 let MessageConstructor = Vue.extend(Main);
 
 let instance;

@@ -1,9 +1,9 @@
 import Pager from './pager.vue';
-import ElSelect from 'lhb-ceshi-ui/packages/select';
-import ElOption from 'lhb-ceshi-ui/packages/option';
-import ElInput from 'lhb-ceshi-ui/packages/input';
-import Locale from 'lhb-ceshi-ui/src/mixins/locale';
-import { valueEquals } from 'lhb-ceshi-ui/src/utils/util';
+import ElSelect from 'rocket-ui-admin/packages/select';
+import ElOption from 'rocket-ui-admin/packages/option';
+import ElInput from 'rocket-ui-admin/packages/input';
+import Locale from 'rocket-ui-admin/src/mixins/locale';
+import { valueEquals } from 'rocket-ui-admin/src/utils/util';
 
 export default {
   name: 'ElPagination',
