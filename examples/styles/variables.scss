@@ -1,0 +1,23 @@
+
+$--font-path: '../../packages/theme-chalk/lib/fonts';
+// @import '../../packages/theme-chalk/src/common/init.scss';
+// @import '../../packages/theme-chalk/src/index.scss';
+// @import '../../packages/theme-chalk/src/common/init.scss';
+$--color-primary: #006EFF;
+// $--color-text-regular:red;
+// $--color-success:red;
+// $--color-primary: red;
+$--border-radius-base:0;
+$--size-base:12px;
+$--font-size-base:12px;
+
+// 《button》 按钮
+$--button-primary-background-color:#006EFF;
+$--button-default-border-color:#DDDDDD;
+$--button-default-font-color:#333333;
+$--button-padding-vertical:8px;
+$--button-padding-horizontal:20px;
+
+
+// Select 下拉框
+$--select-dropdown-padding: 0;

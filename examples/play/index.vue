@@ -6,7 +6,7 @@
     <el-button type="primary">11</el-button>
     <el-button>默认按钮</el-button>
     <lhb-select></lhb-select>
-    <lhb-input></lhb-input>
+    <!-- <lhb-input></lhb-input> -->
   </div>
 </template>
 

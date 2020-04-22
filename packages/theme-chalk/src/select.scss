@@ -19,22 +19,27 @@
 
   &:hover {
     .el-input__inner {
+      color: #000;
+      background-color: #f2f2f2;
       border-color: $--select-border-color-hover;
     }
   }
 
   .el-input__inner {
+    color: #000;
     cursor: pointer;
     padding-right: 35px;
-
+  
     &:focus {
-      border-color: $--select-input-focus-border-color;
+      border-color: $--select-border-color-hover;
+      // border-color: $--select-input-focus-border-color;
     }
   }
 
   .el-input {
     & .el-select__caret {
-      color: $--select-input-color;
+      // color: $--select-input-color;
+      color: #888888;
       font-size: $--select-input-font-size;
       transition: transform .3s;
       transform: rotateZ(180deg);
@@ -69,7 +74,7 @@
     }
 
     &.is-focus .el-input__inner {
-      border-color: $--select-input-focus-border-color;
+      // border-color: $--select-input-focus-border-color;
     }
   }
 

@@ -51,6 +51,7 @@ export default {
         },
       ],
       inputValue: '选项2',
+      value:''
     }
   },
 }

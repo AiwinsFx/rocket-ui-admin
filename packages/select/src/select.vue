@@ -101,9 +101,7 @@
       </template>
     </el-input>
     <transition
-      name="el-zoom-in-top"
-      @before-enter="handleMenuEnter"
-      @after-leave="doDestroy">
+>
       <el-select-menu
         ref="popper"
         :append-to-body="popperAppendToBody"
@@ -195,7 +193,8 @@
       },
 
       iconClass() {
-        return this.remote && this.filterable ? '' : (this.visible ? 'arrow-up is-reverse' : 'arrow-up');
+        // return this.remote && this.filterable ? '' : (this.visible ? 'caret-top is-reverse' : 'caret-top');
+        return this.remote && this.filterable ? '' : (this.visible ? 'caret-top' : 'caret-top');
       },
 
       debounce() {

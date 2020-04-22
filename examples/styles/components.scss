@@ -1,0 +1,13 @@
+// @import '../../packages/theme-chalk/src/common/init.scss';
+// @import '../../packages/theme-chalk/src/index.scss';
+
+.el-button:focus, .el-button:hover{
+  border-color: #ddd;
+  color: #000;
+  background-color: #f2f2f2;
+}
+.el-button--primary:focus, .el-button--primary:hover{
+  border-color: #0063e5;
+  background-color: #0063e5;
+  color: #fff;
+}
