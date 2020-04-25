@@ -10,3 +10,65 @@
 @import "./input.scss";
 @import "./scrollbar.scss";
 @import "./popper";
+.el-date-range-picker{
+  width: 429px;
+  border: 1px solid #ddd !important;
+}
+.el-date-range-picker .el-picker-panel__body{
+  min-width: 0;
+}
+
+.el-date-range-picker{
+  tr{
+    height: 15px;
+    line-height: 15px;
+    color: #333333;
+  }
+  .available:not(.in-range){
+    span{
+      &:hover{
+        border-radius: 25px;
+        background: #f2f2f2;
+      }
+    }
+  }
+  td{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    &.available:hover{
+      color: #333333 !important;
+    }
+    div{
+      height: 26px;
+      line-height: 26px;
+      span{
+        bottom: 4px;
+        &:hover{
+
+        }
+        // height: 26px;
+        // line-height: 26px;
+
+        // color: #333333;
+      }
+    }
+  }
+  td.in-range div {
+    background-color: #f2f2f2;
+  }
+  .prev-month{
+    color: #bbbbbb;
+  }
+  .available{
+    color: #333333;
+  }
+  .el-date-range-picker__header div{
+    font-size: 12px;
+    color: #000;
+    font-weight: 700;
+  }
+  .popper__arrow{
+    display:none !important;
+  }
+}

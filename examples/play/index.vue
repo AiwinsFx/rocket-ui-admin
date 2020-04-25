@@ -6,7 +6,8 @@
     <el-button type="primary">11</el-button>
     <el-button>默认按钮</el-button>
     <lhb-select></lhb-select>
-    <!-- <lhb-input></lhb-input> -->
+    <lhb-input></lhb-input>
+    <lhb-picker></lhb-picker>
   </div>
 </template>
 
@@ -15,8 +16,9 @@
 import LhbSelect from './comments/lhb-select/demo1'
 // import LhbSelect from './comments/select/index'
 import LhbInput from './comments/input/index'
+import LhbPicker from './comments/date-picker/index'
 export default {
-  components:{LhbSelect,LhbInput},
+  components:{LhbSelect,LhbInput,LhbPicker},
   data() {
     return {
       input: 'Hello Element UI!',

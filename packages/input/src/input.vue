@@ -52,13 +52,19 @@
         class="el-input__suffix"
         v-if="getSuffixVisible()">
         <span class="el-input__suffix-inner">
-          <template v-if="!showClear || !showPwdVisible || !isWordLimitVisible">
+          <template v-if="!showClear || !showPwdVisible || !isWordLimitVisible || !showSearch">
             <slot name="suffix"></slot>
             <i class="el-input__icon"
               v-if="suffixIcon"
               :class="suffixIcon">
             </i>
           </template>
+          <i v-if="showSearch"
+          class="el-input__icon el-icon-search el-input__clear"          
+          @click="search"
+          >
+
+          </i>
           <i v-if="showClear"
             class="el-input__icon el-icon-circle-close el-input__clear"
             @mousedown.prevent
@@ -177,6 +183,10 @@
       suffixIcon: String,
       prefixIcon: String,
       label: String,
+      searchable:{ //是否可搜索
+        type: Boolean,
+        default: false
+      },
       clearable: {
         type: Boolean,
         default: false
@@ -220,6 +230,14 @@
       },
       nativeInputValue() {
         return this.value === null || this.value === undefined ? '' : String(this.value);
+      },
+      showSearch(){
+        return this.searchable &&
+           !this.inputDisabled &&
+           !this.readonly &&
+           this.nativeInputValue &&
+           (this.focused || this.hovering);
+
       },
       showClear() {
         return this.clearable &&
@@ -401,6 +419,11 @@
         this.$emit('change', '');
         this.$emit('clear');
       },
+      search() {
+        // this.$emit('input', '');
+        // this.$emit('change', '');
+        this.$emit('search');
+      },
       handlePasswordVisible() {
         this.passwordVisible = !this.passwordVisible;
         this.focus();
@@ -411,6 +434,7 @@
       getSuffixVisible() {
         return this.$slots.suffix ||
           this.suffixIcon ||
+          this.showSearch ||
           this.showClear ||
           this.showPassword ||
           this.isWordLimitVisible ||
