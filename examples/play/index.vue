@@ -8,6 +8,7 @@
     <lhb-select></lhb-select>
     <lhb-input></lhb-input>
     <lhb-picker></lhb-picker>
+    <lhb-table></lhb-table>
   </div>
 </template>
 
@@ -17,8 +18,9 @@ import LhbSelect from './comments/lhb-select/demo1'
 // import LhbSelect from './comments/select/index'
 import LhbInput from './comments/input/index'
 import LhbPicker from './comments/date-picker/index'
+import LhbTable from './comments/table/index'
 export default {
-  components:{LhbSelect,LhbInput,LhbPicker},
+  components:{LhbSelect,LhbInput,LhbPicker,LhbTable},
   data() {
     return {
       input: 'Hello Element UI!',

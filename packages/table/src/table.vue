@@ -313,7 +313,10 @@
         type: Boolean,
         default: true
       },
-
+      customFilter:{
+        type:Boolean,
+        default:false
+      },
       indent: {
         type: Number,
         default: 16
