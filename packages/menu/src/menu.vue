@@ -318,8 +318,6 @@
       }
     },
     mounted() {
-      // console.log('导航栏');
-      console.log('menu的组件',this.$slots);
       this.initOpenedMenu();
       this.$on('item-click', this.handleItemClick);
       this.$on('submenu-click', this.handleSubmenuClick);
