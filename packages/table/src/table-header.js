@@ -129,7 +129,11 @@ export default {
                         column.filterable ? (<span
                           class="el-table__column-filter-trigger"
                           on-click={ ($event) => this.handleFilterClick($event, column) }>
-                          <i class={ ['el-icon-arrow-down', column.filterOpened ? 'el-icon-arrow-up' : ''] }></i>
+                          {/* <i class={ ['el-icon-arrow-down', column.filterOpened ? 'el-icon-arrow-up' : ''] }></i> */}
+                          <svg version="1.1" id="wechat-_x23_fff" xmlns="http://www.w3.org/2000/svg"  x="0px"
+                            y="0px" viewBox="0 0 10 9" style="enable-background:new 0 0 10 9;fill:#888888;width:10px;height:9px;margin-left:5px" >
+                          <path class="st0" d="M10,0H0l4,4v5l2-1V4L10,0z"/>
+                          </svg>
                         </span>) : ''
                       }
                     </div>

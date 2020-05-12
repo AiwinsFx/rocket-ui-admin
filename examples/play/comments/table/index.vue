@@ -7,6 +7,7 @@
       :data="tableData"
       tooltip-effect="dark"
       style="width: 100%"
+      @sort-change="changeSort"
       @filter-change="filterChange"
       @selection-change="handleSelectionChange"
     >
@@ -28,7 +29,7 @@
       >
         <template slot-scope="scope">{{ scope.row.date }}</template>
       </el-table-column>
-      <el-table-column prop="name" label="姓名" width="120"> </el-table-column>
+      <el-table-column sortable='custom' prop="name" label="姓名" width="120"> </el-table-column>
       <el-table-column
        prop="address" 
       label="地址" 
@@ -93,6 +94,13 @@ export default {
   },
 
   methods: {
+        changeSort(val){
+      console.log('自定义筛选',val);
+      // this.query.order = val.prop;
+      // (val.order=="descending") ? (this.query.sort='desc'):((val.order=="ascending")?(this.query.sort='asc'):'')
+      // console.log(val.order,this.query.sort);
+      // this.getCoupons()
+    },
     filterSelect(val,key){
       console.log('自定义的筛选事件',val,key);
     },
@@ -130,3 +138,8 @@ export default {
   },
 }
 </script>
+<style lang="scss">
+  .el-table .sort-caret.ascending{
+    border-bottom-color: #888888;
+  }
+</style>

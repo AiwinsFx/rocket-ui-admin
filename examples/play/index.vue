@@ -9,6 +9,7 @@
     <lhb-input></lhb-input>
     <lhb-picker></lhb-picker>
     <lhb-table></lhb-table>
+    <lhb-pagination></lhb-pagination>
   </div>
 </template>
 
@@ -19,8 +20,9 @@ import LhbSelect from './comments/lhb-select/demo1'
 import LhbInput from './comments/input/index'
 import LhbPicker from './comments/date-picker/index'
 import LhbTable from './comments/table/index'
+import LhbPagination from './comments/lhb-pagination/index'
 export default {
-  components:{LhbSelect,LhbInput,LhbPicker,LhbTable},
+  components:{LhbSelect,LhbInput,LhbPicker,LhbTable,LhbPagination},
   data() {
     return {
       input: 'Hello Element UI!',

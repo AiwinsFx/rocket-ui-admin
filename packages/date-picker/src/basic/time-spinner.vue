@@ -85,7 +85,7 @@
         class="el-time-spinner__wrapper is-arrow"
         v-if="showSeconds">
         <i v-repeat-click="decrease" class="el-time-spinner__arrow el-icon-arrow-up"></i>
-        <i v-repeat-click="increase" class="el-time-spinner__arrow el-icon-arrow-down"></i>
+        <i v-repeat-click="increase" class="el-time-spinner__arrow "></i>
         <ul class="el-time-spinner__list" ref="seconds">
           <li
             v-for="(second, key) in arrowSecondList"
