@@ -74,7 +74,12 @@ export default {
     let template = <div class={['el-pagination', {
       'is-background': this.background,
       'el-pagination--small': this.small
-    }] }></div>;
+    }] }>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>;
+    let templateLeft = template.children[0];
+    let templateRight = template.children[1];
     const TEMPLATE_MAP = {
       prev: <prev></prev>,
       jumper: <jumper></jumper>,
@@ -85,21 +90,40 @@ export default {
       total: <total></total>
     };
     const components = layout.split(',').map((item) => item.trim());
-    const rightWrapper = <div class="el-pagination__rightwrapper"></div>;
+    const rightWrapper = <div class="el-pagination__rightwrapper"><div class="left"></div><div class="right"></div></div>;
+    const rightWrapperLeft = rightWrapper.children[0]
+    const rightWrapperRight = rightWrapper.children[1]
     let haveRightWrapper = false;
 
     template.children = template.children || [];
+    templateLeft.children = templateLeft.children || [];
+    templateRight.children = templateRight.children || [];
     rightWrapper.children = rightWrapper.children || [];
+    rightWrapperLeft.children = rightWrapperLeft.children || [];
+    rightWrapperRight.children = rightWrapperRight.children || [];
     components.forEach(compo => {
+      if(compo === 'total'){
+        console.log('遍历的组件',compo,template.children,templateLeft,templateRight)
+      }
       if (compo === '->') {
         haveRightWrapper = true;
         return;
       }
 
       if (!haveRightWrapper) {
-        template.children.push(TEMPLATE_MAP[compo]);
+        if(compo === 'total'){
+          templateLeft.children.push(TEMPLATE_MAP[compo])
+        }else{
+          templateRight.children.push(TEMPLATE_MAP[compo])
+        }
+        // template.children.push(TEMPLATE_MAP[compo]);
       } else {
-        rightWrapper.children.push(TEMPLATE_MAP[compo]);
+        if(compo === 'total'){
+          rightWrapperLeft.children.push(TEMPLATE_MAP[compo])
+        }else{
+          rightWrapperRight.children.push(TEMPLATE_MAP[compo])
+        }
+        // rightWrapper.children.push(TEMPLATE_MAP[compo]);
       }
     });
 
