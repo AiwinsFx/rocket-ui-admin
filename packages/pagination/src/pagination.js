@@ -102,9 +102,6 @@ export default {
     rightWrapperLeft.children = rightWrapperLeft.children || [];
     rightWrapperRight.children = rightWrapperRight.children || [];
     components.forEach(compo => {
-      if(compo === 'total'){
-        console.log('遍历的组件',compo,template.children,templateLeft,templateRight)
-      }
       if (compo === '->') {
         haveRightWrapper = true;
         return;

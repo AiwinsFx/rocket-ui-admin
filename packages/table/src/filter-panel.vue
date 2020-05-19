@@ -118,7 +118,6 @@ export default {
     },
 
     handleSelect(filterValue) {
-      console.log('筛选事件', this)
       if (this.table.customFilter) {
         this.table.$emit('custom-filter', filterValue, this.column.columnKey)
       } else {
