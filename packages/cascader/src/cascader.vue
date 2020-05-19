@@ -35,7 +35,7 @@
           key="arrow-down"
           :class="[
             'el-input__icon',
-            'el-icon-arrow-down',
+            'el-icon-caret-bottom',
             dropDownVisible && 'is-reverse'
           ]"
           @click.stop="toggleDropDownVisible()"></i>
