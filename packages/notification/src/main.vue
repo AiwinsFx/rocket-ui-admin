@@ -103,7 +103,6 @@
       },
 
       close() {
-        console.log('notification关闭');
         this.closed = true;
         if (typeof this.onClose === 'function') {
           this.onClose();

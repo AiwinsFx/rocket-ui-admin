@@ -1,6 +1,6 @@
 {
   "name": "rocket-ui-admin",
-  "version": "1.0.9",
+  "version": "1.1.7",
   "description": "A Component Library for Vue.js.",
   "main": "lib/rocket-ui-admin.common.js",
   "files": [
@@ -11,6 +11,7 @@
   ],
   "typings": "types/index.d.ts",
   "scripts": {
+    "publish": "npm version patch && npm publish",
     "bootstrap": "yarn || npm i",
     "build:file": "node build/bin/iconInit.js & node build/bin/build-entry.js  & node build/bin/version.js",
     "build:theme": "node build/bin/gen-cssfile && gulp build --gulpfile packages/theme-chalk/gulpfile.js && cp-cli packages/theme-chalk/lib lib/theme-chalk",

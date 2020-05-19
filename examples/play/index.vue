@@ -1,6 +1,6 @@
 <template>
   <div style="margin: 20px;">
-    <!-- <el-input v-model="input" placeholder="请输入内容"></el-input> -->
+    <el-input v-model="input" placeholder="请输入内容"></el-input>
     <el-tag class="tags" type="success">标签二</el-tag>
     <el-alert title="成功提示的文案" type="success"> </el-alert>
     <el-button type="primary">11</el-button>
@@ -10,6 +10,7 @@
     <lhb-picker></lhb-picker>
     <lhb-table></lhb-table>
     <lhb-pagination></lhb-pagination>
+    <lhb-tree></lhb-tree>
   </div>
 </template>
 
@@ -21,8 +22,9 @@ import LhbInput from './comments/input/index'
 import LhbPicker from './comments/date-picker/index'
 import LhbTable from './comments/table/index'
 import LhbPagination from './comments/lhb-pagination/index'
+import LhbTree from './comments/lhb-tree/index'
 export default {
-  components:{LhbSelect,LhbInput,LhbPicker,LhbTable,LhbPagination},
+  components:{LhbSelect,LhbInput,LhbPicker,LhbTable,LhbPagination,LhbTree},
   data() {
     return {
       input: 'Hello Element UI!',
