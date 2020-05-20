@@ -1,6 +1,6 @@
 {
-  "name": "rocket-ui-admin",
-  "version": "1.1.31",
+  "name": "@aiwins/admin-ui",
+  "version": "1.0.1",
   "description": "A Component Library for Vue.js.",
   "main": "lib/rocket-ui-admin.common.js",
   "files": [
@@ -127,5 +127,8 @@
     "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.11",
     "webpack-node-externals": "^1.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
