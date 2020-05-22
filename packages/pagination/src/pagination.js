@@ -1,9 +1,9 @@
 import Pager from './pager.vue';
-import ElSelect from 'rocket-ui-admin/packages/select';
-import ElOption from 'rocket-ui-admin/packages/option';
-import ElInput from 'rocket-ui-admin/packages/input';
-import Locale from 'rocket-ui-admin/src/mixins/locale';
-import { valueEquals } from 'rocket-ui-admin/src/utils/util';
+import ElSelect from '@aiwins/admin-ui/packages/select';
+import ElOption from '@aiwins/admin-ui/packages/option';
+import ElInput from '@aiwins/admin-ui/packages/input';
+import Locale from '@aiwins/admin-ui/src/mixins/locale';
+import { valueEquals } from '@aiwins/admin-ui/src/utils/util';
 
 export default {
   name: 'ElPagination',

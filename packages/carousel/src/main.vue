@@ -56,7 +56,7 @@
 
 <script>
 import throttle from 'throttle-debounce/throttle';
-import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
+import { addResizeListener, removeResizeListener } from '@aiwins/admin-ui/src/utils/resize-event';
 
 export default {
   name: 'ElCarousel',

@@ -1,4 +1,4 @@
-import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
 const ctx = '@@clickoutsideContext';
 
 import { triggerEvent, triggerClick } from '../util';

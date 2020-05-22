@@ -1,5 +1,5 @@
-import fecha from 'rocket-ui-admin/src/utils/date';
-import { t } from 'rocket-ui-admin/src/locale';
+import fecha from '@aiwins/admin-ui/src/utils/date';
+import { t } from '@aiwins/admin-ui/src/locale';
 
 const weeks = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
 const months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];

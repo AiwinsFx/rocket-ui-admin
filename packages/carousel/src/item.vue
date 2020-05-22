@@ -21,7 +21,7 @@
 </template>
 
 <script>
-  import { autoprefixer } from 'rocket-ui-admin/src/utils/util';
+  import { autoprefixer } from '@aiwins/admin-ui/src/utils/util';
   const CARD_SCALE = 0.83;
   export default {
     name: 'ElCarouselItem',

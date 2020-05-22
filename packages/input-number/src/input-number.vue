@@ -46,9 +46,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'rocket-ui-admin/packages/input';
-  import Focus from 'rocket-ui-admin/src/mixins/focus';
-  import RepeatClick from 'rocket-ui-admin/src/directives/repeat-click';
+  import ElInput from '@aiwins/admin-ui/packages/input';
+  import Focus from '@aiwins/admin-ui/src/mixins/focus';
+  import RepeatClick from '@aiwins/admin-ui/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

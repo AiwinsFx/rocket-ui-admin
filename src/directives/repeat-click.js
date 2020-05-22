@@ -1,4 +1,4 @@
-import { once, on } from 'rocket-ui-admin/src/utils/dom';
+import { once, on } from '@aiwins/admin-ui/src/utils/dom';
 
 export default {
   bind(el, binding, vnode) {

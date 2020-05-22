@@ -47,9 +47,9 @@
 </template>
 
 <script>
-import Popup from 'rocket-ui-admin/src/utils/popup';
-import emitter from 'rocket-ui-admin/src/mixins/emitter';
-import Utils from 'rocket-ui-admin/src/utils/aria-utils';
+import Popup from '@aiwins/admin-ui/src/utils/popup';
+import emitter from '@aiwins/admin-ui/src/mixins/emitter';
+import Utils from '@aiwins/admin-ui/src/utils/aria-utils';
 
 export default {
   name: 'ElDrawer',

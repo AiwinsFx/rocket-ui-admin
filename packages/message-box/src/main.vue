@@ -79,13 +79,13 @@
 </template>
 
 <script type="text/babel">
-  import Popup from 'rocket-ui-admin/src/utils/popup';
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
-  import ElInput from 'rocket-ui-admin/packages/input';
-  import ElButton from 'rocket-ui-admin/packages/button';
-  import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
-  import { t } from 'rocket-ui-admin/src/locale';
-  import Dialog from 'rocket-ui-admin/src/utils/aria-dialog';
+  import Popup from '@aiwins/admin-ui/src/utils/popup';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
+  import ElInput from '@aiwins/admin-ui/packages/input';
+  import ElButton from '@aiwins/admin-ui/packages/button';
+  import { addClass, removeClass } from '@aiwins/admin-ui/src/utils/dom';
+  import { t } from '@aiwins/admin-ui/src/locale';
+  import Dialog from '@aiwins/admin-ui/src/utils/aria-dialog';
 
   let messageBox;
   let typeMap = {

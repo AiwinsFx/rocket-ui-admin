@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Loading from './loading.vue';
-import { addClass, removeClass, getStyle } from 'rocket-ui-admin/src/utils/dom';
-import { PopupManager } from 'rocket-ui-admin/src/utils/popup';
-import afterLeave from 'rocket-ui-admin/src/utils/after-leave';
+import { addClass, removeClass, getStyle } from '@aiwins/admin-ui/src/utils/dom';
+import { PopupManager } from '@aiwins/admin-ui/src/utils/popup';
+import afterLeave from '@aiwins/admin-ui/src/utils/after-leave';
 const Mask = Vue.extend(Loading);
 
 const loadingDirective = {};

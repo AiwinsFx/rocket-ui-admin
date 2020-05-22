@@ -58,13 +58,13 @@
 </template>
 <script>
   import debounce from 'throttle-debounce/debounce';
-  import ElInput from 'rocket-ui-admin/packages/input';
-  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
+  import ElInput from '@aiwins/admin-ui/packages/input';
+  import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
   import ElAutocompleteSuggestions from './autocomplete-suggestions.vue';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
-  import { generateId } from 'rocket-ui-admin/src/utils/util';
-  import Focus from 'rocket-ui-admin/src/mixins/focus';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
+  import { generateId } from '@aiwins/admin-ui/src/utils/util';
+  import Focus from '@aiwins/admin-ui/src/mixins/focus';
 
   export default {
     name: 'ElAutocomplete',

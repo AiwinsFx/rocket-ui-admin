@@ -62,8 +62,8 @@
     modifyDate,
     clearMilliseconds,
     timeWithinRange
-  } from 'rocket-ui-admin/src/utils/date-util';
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  } from '@aiwins/admin-ui/src/utils/date-util';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   const MIN_TIME = parseDate('00:00:00', 'HH:mm:ss');

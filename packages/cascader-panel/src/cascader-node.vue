@@ -1,7 +1,7 @@
 <script>
-  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
-  import ElRadio from 'rocket-ui-admin/packages/radio';
-  import { isEqual } from 'rocket-ui-admin/src/utils/util';
+  import ElCheckbox from '@aiwins/admin-ui/packages/checkbox';
+  import ElRadio from '@aiwins/admin-ui/packages/radio';
+  import { isEqual } from '@aiwins/admin-ui/src/utils/util';
 
   const stopPropagation = e => e.stopPropagation();
 

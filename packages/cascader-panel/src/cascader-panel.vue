@@ -17,16 +17,16 @@
 <script>
 import CascaderMenu from './cascader-menu';
 import Store from './store';
-import merge from 'rocket-ui-admin/src/utils/merge';
-import AriaUtils from 'rocket-ui-admin/src/utils/aria-utils';
-import scrollIntoView from 'rocket-ui-admin/src/utils/scroll-into-view';
+import merge from '@aiwins/admin-ui/src/utils/merge';
+import AriaUtils from '@aiwins/admin-ui/src/utils/aria-utils';
+import scrollIntoView from '@aiwins/admin-ui/src/utils/scroll-into-view';
 import {
   noop,
   coerceTruthyValueToArray,
   isEqual,
   isEmpty,
   valueEquals
-} from 'rocket-ui-admin/src/utils/util';
+} from '@aiwins/admin-ui/src/utils/util';
 
 const { keys: KeyCode } = AriaUtils;
 const DefaultProps = {

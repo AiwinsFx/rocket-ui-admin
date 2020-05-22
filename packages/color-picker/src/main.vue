@@ -33,8 +33,8 @@
 <script>
   import Color from './color';
   import PickerDropdown from './components/picker-dropdown.vue';
-  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
 
   export default {
     name: 'ElColorPicker',

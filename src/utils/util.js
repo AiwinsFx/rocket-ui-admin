@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { isString, isObject } from 'rocket-ui-admin/src/utils/types';
+import { isString, isObject } from '@aiwins/admin-ui/src/utils/types';
 
 const hasOwnProperty = Object.prototype.hasOwnProperty;
 

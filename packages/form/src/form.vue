@@ -7,7 +7,7 @@
   </form>
 </template>
 <script>
-  import objectAssign from 'rocket-ui-admin/src/utils/merge';
+  import objectAssign from '@aiwins/admin-ui/src/utils/merge';
 
   export default {
     name: 'ElForm',

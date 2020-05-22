@@ -1,4 +1,4 @@
-import { addClass, removeClass } from 'rocket-ui-admin/src/utils/dom';
+import { addClass, removeClass } from '@aiwins/admin-ui/src/utils/dom';
 
 class Transition {
   beforeEnter(el) {

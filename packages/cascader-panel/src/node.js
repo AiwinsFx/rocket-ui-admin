@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'rocket-ui-admin/src/utils/util';
-import { isDef } from 'rocket-ui-admin/src/utils/shared';
+import { isEqual, capitalize } from '@aiwins/admin-ui/src/utils/util';
+import { isDef } from '@aiwins/admin-ui/src/utils/shared';
 
 let uid = 0;
 

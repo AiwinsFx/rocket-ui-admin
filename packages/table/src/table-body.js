@@ -1,8 +1,8 @@
-import { arrayFindIndex } from 'rocket-ui-admin/src/utils/util';
+import { arrayFindIndex } from '@aiwins/admin-ui/src/utils/util';
 import { getCell, getColumnByCell, getRowIdentity } from './util';
-import { getStyle, hasClass, removeClass, addClass } from 'rocket-ui-admin/src/utils/dom';
-import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
-import ElTooltip from 'rocket-ui-admin/packages/tooltip';
+import { getStyle, hasClass, removeClass, addClass } from '@aiwins/admin-ui/src/utils/dom';
+import ElCheckbox from '@aiwins/admin-ui/packages/checkbox';
+import ElTooltip from '@aiwins/admin-ui/packages/tooltip';
 import debounce from 'throttle-debounce/debounce';
 import LayoutObserver from './layout-observer';
 import { mapStates } from './store/helper';

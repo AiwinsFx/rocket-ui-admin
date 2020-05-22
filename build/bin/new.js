@@ -113,8 +113,8 @@ fileSave(sassPath)
   .write(sassImportText, 'utf8')
   .end('\n');
 
-// 添加到 rocket-ui-admin.d.ts
-// const elementTsPath = path.join(__dirname, '../../types/rocket-ui-admin.d.ts');
+// 添加到 @aiwins/admin-ui.d.ts
+// const elementTsPath = path.join(__dirname, '../../types/@aiwins/admin-ui.d.ts');
 
 // let elementTsText = `${fs.readFileSync(elementTsPath)}
 // /** ${ComponentName} Component */

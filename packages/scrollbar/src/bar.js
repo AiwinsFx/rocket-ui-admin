@@ -1,4 +1,4 @@
-import { on, off } from 'rocket-ui-admin/src/utils/dom';
+import { on, off } from '@aiwins/admin-ui/src/utils/dom';
 import { renderThumbStyle, BAR_MAP } from './util';
 
 /* istanbul ignore next */

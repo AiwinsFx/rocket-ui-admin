@@ -44,9 +44,9 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'rocket-ui-admin/src/utils/dom';
-  import { isDate, range, nextDate, getDayCountOfYear } from 'rocket-ui-admin/src/utils/date-util';
-  import { arrayFindIndex, coerceTruthyValueToArray } from 'rocket-ui-admin/src/utils/util';
+  import { hasClass } from '@aiwins/admin-ui/src/utils/dom';
+  import { isDate, range, nextDate, getDayCountOfYear } from '@aiwins/admin-ui/src/utils/date-util';
+  import { arrayFindIndex, coerceTruthyValueToArray } from '@aiwins/admin-ui/src/utils/util';
 
   const datesInYear = year => {
     const numOfDays = getDayCountOfYear(year);

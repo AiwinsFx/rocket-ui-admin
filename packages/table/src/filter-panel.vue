@@ -64,14 +64,14 @@
 </template>
 
 <script type="text/babel">
-import Popper from 'rocket-ui-admin/src/utils/vue-popper'
-import { PopupManager } from 'rocket-ui-admin/src/utils/popup'
-import Locale from 'rocket-ui-admin/src/mixins/locale'
-import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside'
+import Popper from '@aiwins/admin-ui/src/utils/vue-popper'
+import { PopupManager } from '@aiwins/admin-ui/src/utils/popup'
+import Locale from '@aiwins/admin-ui/src/mixins/locale'
+import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside'
 import Dropdown from './dropdown'
-import ElCheckbox from 'rocket-ui-admin/packages/checkbox'
-import ElCheckboxGroup from 'rocket-ui-admin/packages/checkbox-group'
-import ElScrollbar from 'rocket-ui-admin/packages/scrollbar'
+import ElCheckbox from '@aiwins/admin-ui/packages/checkbox'
+import ElCheckboxGroup from '@aiwins/admin-ui/packages/checkbox-group'
+import ElScrollbar from '@aiwins/admin-ui/packages/scrollbar'
 
 export default {
   name: 'ElTableFilterPanel',

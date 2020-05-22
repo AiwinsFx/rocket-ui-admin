@@ -18,9 +18,9 @@
   </transition>
 </template>
 <script>
-  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
+  import Popper from '@aiwins/admin-ui/src/utils/vue-popper';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import ElScrollbar from '@aiwins/admin-ui/packages/scrollbar';
 
   export default {
     components: { ElScrollbar },

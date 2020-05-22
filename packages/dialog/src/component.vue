@@ -38,9 +38,9 @@
 </template>
 
 <script>
-  import Popup from 'rocket-ui-admin/src/utils/popup';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
-  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Popup from '@aiwins/admin-ui/src/utils/popup';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
+  import emitter from '@aiwins/admin-ui/src/mixins/emitter';
 
   export default {
     name: 'ElDialog',

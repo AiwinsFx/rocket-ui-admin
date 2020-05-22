@@ -1,8 +1,8 @@
 <script>
-  import ElCollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
+  import ElCollapseTransition from '@aiwins/admin-ui/src/transitions/collapse-transition';
   import menuMixin from './menu-mixin';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Popper from 'rocket-ui-admin/src/utils/vue-popper';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Popper from '@aiwins/admin-ui/src/utils/vue-popper';
 
   const poperMixins = {
     props: {

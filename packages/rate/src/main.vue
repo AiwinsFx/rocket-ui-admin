@@ -33,9 +33,9 @@
 </template>
 
 <script>
-  import { hasClass } from 'rocket-ui-admin/src/utils/dom';
-  import { isObject } from 'rocket-ui-admin/src/utils/types';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import { hasClass } from '@aiwins/admin-ui/src/utils/dom';
+  import { isObject } from '@aiwins/admin-ui/src/utils/types';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
 
   export default {
     name: 'ElRate',

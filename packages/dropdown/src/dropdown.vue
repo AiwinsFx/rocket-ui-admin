@@ -1,10 +1,10 @@
 <script>
-  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
-  import ElButton from 'rocket-ui-admin/packages/button';
-  import ElButtonGroup from 'rocket-ui-admin/packages/button-group';
-  import { generateId } from 'rocket-ui-admin/src/utils/util';
+  import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
+  import ElButton from '@aiwins/admin-ui/packages/button';
+  import ElButtonGroup from '@aiwins/admin-ui/packages/button-group';
+  import { generateId } from '@aiwins/admin-ui/src/utils/util';
 
   export default {
     name: 'ElDropdown',

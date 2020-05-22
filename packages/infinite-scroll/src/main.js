@@ -4,10 +4,10 @@ import {
   isFunction,
   isUndefined,
   isDefined
-} from 'rocket-ui-admin/src/utils/types';
+} from '@aiwins/admin-ui/src/utils/types';
 import {
   getScrollContainer
-} from 'rocket-ui-admin/src/utils/dom';
+} from '@aiwins/admin-ui/src/utils/dom';
 
 const getStyleComputedProperty = (element, property) => {
   if (element === window) {

@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { t } from 'rocket-ui-admin/src/locale';
+import { t } from '@aiwins/admin-ui/src/locale';
 export default {
   name: 'ElPageHeader',
 

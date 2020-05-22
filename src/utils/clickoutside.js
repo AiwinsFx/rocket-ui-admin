@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { on } from 'rocket-ui-admin/src/utils/dom';
+import { on } from '@aiwins/admin-ui/src/utils/dom';
 
 const nodeList = [];
 const ctx = '@@clickoutsideContext';

@@ -14,7 +14,6 @@
     <el-cascader
       :options="options"
       :props="{ expandTrigger: 'hover' }"
-      @change="handleChangeaa"
     ></el-cascader>
   </div>
 </template>

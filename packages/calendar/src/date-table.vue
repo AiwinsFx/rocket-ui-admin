@@ -1,6 +1,6 @@
 <script>
-import fecha from 'rocket-ui-admin/src/utils/date';
-import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from 'rocket-ui-admin/src/utils/date-util';
+import fecha from '@aiwins/admin-ui/src/utils/date';
+import { range as rangeArr, getFirstDayOfMonth, getPrevMonthLastDays, getMonthDays, getI18nSettings, validateRangeInOneMonth } from '@aiwins/admin-ui/src/utils/date-util';
 
 export default {
   props: {

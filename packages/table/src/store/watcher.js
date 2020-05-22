@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import merge from 'rocket-ui-admin/src/utils/merge';
+import merge from '@aiwins/admin-ui/src/utils/merge';
 import { getKeysMap, getRowIdentity, getColumnById, getColumnByKey, orderBy, toggleRowStatus } from '../util';
 import expand from './expand';
 import current from './current';

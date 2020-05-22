@@ -57,12 +57,12 @@
 </template>
 
 <script>
-import Locale from 'rocket-ui-admin/src/mixins/locale';
-import fecha from 'rocket-ui-admin/src/utils/date';
-import ElButton from 'rocket-ui-admin/packages/button';
-import ElButtonGroup from 'rocket-ui-admin/packages/button-group';
+import Locale from '@aiwins/admin-ui/src/mixins/locale';
+import fecha from '@aiwins/admin-ui/src/utils/date';
+import ElButton from '@aiwins/admin-ui/packages/button';
+import ElButtonGroup from '@aiwins/admin-ui/packages/button-group';
 import DateTable from './date-table';
-import { validateRangeInOneMonth } from 'rocket-ui-admin/src/utils/date-util';
+import { validateRangeInOneMonth } from '@aiwins/admin-ui/src/utils/date-util';
 
 const validTypes = ['prev-month', 'today', 'next-month'];
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];

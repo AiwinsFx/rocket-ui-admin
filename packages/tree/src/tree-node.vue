@@ -72,9 +72,9 @@
 </template>
 
 <script type="text/jsx">
-  import ElCollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
-  import ElCheckbox from 'rocket-ui-admin/packages/checkbox';
-  import emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import ElCollapseTransition from '@aiwins/admin-ui/src/transitions/collapse-transition';
+  import ElCheckbox from '@aiwins/admin-ui/packages/checkbox';
+  import emitter from '@aiwins/admin-ui/src/mixins/emitter';
   import { getNodeKey } from './model/util';
 
   export default {

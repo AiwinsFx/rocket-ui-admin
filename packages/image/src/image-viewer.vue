@@ -52,8 +52,8 @@
 </template>
 
 <script>
-import { on, off } from 'rocket-ui-admin/src/utils/dom';
-import { rafThrottle, isFirefox } from 'rocket-ui-admin/src/utils/util';
+import { on, off } from '@aiwins/admin-ui/src/utils/dom';
+import { rafThrottle, isFirefox } from '@aiwins/admin-ui/src/utils/util';
 
 const Mode = {
   CONTAIN: {

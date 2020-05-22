@@ -132,22 +132,22 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Focus from 'rocket-ui-admin/src/mixins/focus';
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
-  import ElInput from 'rocket-ui-admin/packages/input';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Focus from '@aiwins/admin-ui/src/mixins/focus';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
+  import ElInput from '@aiwins/admin-ui/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'rocket-ui-admin/packages/tag';
-  import ElScrollbar from 'rocket-ui-admin/packages/scrollbar';
+  import ElTag from '@aiwins/admin-ui/packages/tag';
+  import ElScrollbar from '@aiwins/admin-ui/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
-  import { t } from 'rocket-ui-admin/src/locale';
-  import scrollIntoView from 'rocket-ui-admin/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'rocket-ui-admin/src/utils/util';
+  import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from '@aiwins/admin-ui/src/utils/resize-event';
+  import { t } from '@aiwins/admin-ui/src/locale';
+  import scrollIntoView from '@aiwins/admin-ui/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from '@aiwins/admin-ui/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'rocket-ui-admin/src/utils/shared';
+  import { isKorean } from '@aiwins/admin-ui/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

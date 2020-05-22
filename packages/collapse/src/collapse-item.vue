@@ -45,9 +45,9 @@
   </div>
 </template>
 <script>
-  import ElCollapseTransition from 'rocket-ui-admin/src/transitions/collapse-transition';
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import { generateId } from 'rocket-ui-admin/src/utils/util';
+  import ElCollapseTransition from '@aiwins/admin-ui/src/transitions/collapse-transition';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import { generateId } from '@aiwins/admin-ui/src/utils/util';
 
   export default {
     name: 'ElCollapseItem',

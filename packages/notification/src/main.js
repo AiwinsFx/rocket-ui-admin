@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import Main from './main.vue';
-import merge from 'rocket-ui-admin/src/utils/merge';
-import { PopupManager } from 'rocket-ui-admin/src/utils/popup';
-import { isVNode } from 'rocket-ui-admin/src/utils/vdom';
+import merge from '@aiwins/admin-ui/src/utils/merge';
+import { PopupManager } from '@aiwins/admin-ui/src/utils/popup';
+import { isVNode } from '@aiwins/admin-ui/src/utils/vdom';
 const NotificationConstructor = Vue.extend(Main);
 
 let instance;

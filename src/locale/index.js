@@ -1,4 +1,4 @@
-import defaultLang from 'rocket-ui-admin/src/locale/lang/zh-CN';
+import defaultLang from '@aiwins/admin-ui/src/locale/lang/zh-CN';
 import Vue from 'vue';
 import deepmerge from 'deepmerge';
 import Format from './format';

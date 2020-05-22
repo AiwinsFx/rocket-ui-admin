@@ -12,7 +12,7 @@ module.exports = {
   output: {
     path: path.resolve(process.cwd(), './lib'),
     publicPath: '/dist/',
-    filename: 'rocket-ui-admin.common.js',
+    filename: '@aiwins/admin-ui.common.js',
     chunkFilename: '[id].js',
     libraryExport: 'default',
     library: 'LHB',

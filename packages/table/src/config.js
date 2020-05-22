@@ -1,4 +1,4 @@
-import { getPropByPath } from 'rocket-ui-admin/src/utils/util';
+import { getPropByPath } from '@aiwins/admin-ui/src/utils/util';
 
 export const cellStarts = {
   default: {

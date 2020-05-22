@@ -31,8 +31,8 @@
 </template>
 
 <script type="text/babel">
-  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from 'rocket-ui-admin/src/utils/date-util';
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  import { limitTimeRange, isDate, clearMilliseconds, timeWithinRange } from '@aiwins/admin-ui/src/utils/date-util';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   export default {

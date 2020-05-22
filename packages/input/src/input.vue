@@ -114,11 +114,11 @@
   </div>
 </template>
 <script>
-  import emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
   import calcTextareaHeight from './calcTextareaHeight';
-  import merge from 'rocket-ui-admin/src/utils/merge';
-  import {isKorean} from 'rocket-ui-admin/src/utils/shared';
+  import merge from '@aiwins/admin-ui/src/utils/merge';
+  import {isKorean} from '@aiwins/admin-ui/src/utils/shared';
 
   export default {
     name: 'ElInput',

@@ -9,22 +9,22 @@ var transitionList = fs.readdirSync(path.resolve(__dirname, '../src/transitions'
 var externals = {};
 
 Object.keys(Components).forEach(function(key) {
-  externals[`rocket-ui-admin/packages/${key}`] = `rocket-ui-admin/lib/${key}`;
+  externals[`@aiwins/admin-ui/packages/${key}`] = `@aiwins/admin-ui/lib/${key}`;
 });
 
-externals['rocket-ui-admin/src/locale'] = 'rocket-ui-admin/lib/locale';
+externals['@aiwins/admin-ui/src/locale'] = '@aiwins/admin-ui/lib/locale';
 utilsList.forEach(function(file) {
   // console.log('遍历的utilsList',file);
   file = path.basename(file, '.js');
-  externals[`rocket-ui-admin/src/utils/${file}`] = `rocket-ui-admin/lib/utils/${file}`;
+  externals[`@aiwins/admin-ui/src/utils/${file}`] = `@aiwins/admin-ui/lib/utils/${file}`;
 });
 mixinsList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`rocket-ui-admin/src/mixins/${file}`] = `rocket-ui-admin/lib/mixins/${file}`;
+  externals[`@aiwins/admin-ui/src/mixins/${file}`] = `@aiwins/admin-ui/lib/mixins/${file}`;
 });
 transitionList.forEach(function(file) {
   file = path.basename(file, '.js');
-  externals[`rocket-ui-admin/src/transitions/${file}`] = `rocket-ui-admin/lib/transitions/${file}`;
+  externals[`@aiwins/admin-ui/src/transitions/${file}`] = `@aiwins/admin-ui/lib/transitions/${file}`;
 });
 // console.log('webpack  externals',externals)
 externals = [Object.assign({
@@ -37,7 +37,7 @@ exports.alias = {
   main: path.resolve(__dirname, '../src'),
   packages: path.resolve(__dirname, '../packages'),
   examples: path.resolve(__dirname, '../examples'),
-  'rocket-ui-admin': path.resolve(__dirname, '../')
+  '@aiwins/admin-ui': path.resolve(__dirname, '../')
 };
 
 exports.vue = {

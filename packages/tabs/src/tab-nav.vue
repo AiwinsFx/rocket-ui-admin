@@ -1,6 +1,6 @@
 <script>
   import TabBar from './tab-bar';
-  import { addResizeListener, removeResizeListener } from 'rocket-ui-admin/src/utils/resize-event';
+  import { addResizeListener, removeResizeListener } from '@aiwins/admin-ui/src/utils/resize-event';
 
   function noop() {}
   const firstUpperCase = str => {

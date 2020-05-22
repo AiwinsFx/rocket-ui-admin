@@ -63,8 +63,8 @@
   </transition-group>
 </template>
 <script>
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
-  import ElProgress from 'rocket-ui-admin/packages/progress';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
+  import ElProgress from '@aiwins/admin-ui/packages/progress';
 
   export default {
 

@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import { getValueByPath, escapeRegexpString } from 'rocket-ui-admin/src/utils/util';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import { getValueByPath, escapeRegexpString } from '@aiwins/admin-ui/src/utils/util';
 
   export default {
     mixins: [Emitter],

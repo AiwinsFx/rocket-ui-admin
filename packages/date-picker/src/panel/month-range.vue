@@ -84,12 +84,12 @@
     prevYear,
     nextYear,
     nextMonth
-  } from 'rocket-ui-admin/src/utils/date-util';
-  import Clickoutside from 'rocket-ui-admin/src/utils/clickoutside';
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
+  } from '@aiwins/admin-ui/src/utils/date-util';
+  import Clickoutside from '@aiwins/admin-ui/src/utils/clickoutside';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
   import MonthTable from '../basic/month-table';
-  import ElInput from 'rocket-ui-admin/packages/input';
-  import ElButton from 'rocket-ui-admin/packages/button';
+  import ElInput from '@aiwins/admin-ui/packages/input';
+  import ElButton from '@aiwins/admin-ui/packages/button';
 
   const calcDefaultValue = (defaultValue) => {
     if (Array.isArray(defaultValue)) {

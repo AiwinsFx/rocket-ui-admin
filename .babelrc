@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["rocket-ui-admin"],
+          "root": ["@aiwins/admin-ui"],
           "alias": {
-            "rocket-ui-admin/src": "rocket-ui-admin/lib"
+            "@aiwins/admin-ui/src": "@aiwins/admin-ui/lib"
           }
         }]
       ]

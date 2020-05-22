@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'rocket-ui-admin/packages/popover';
-import ElButton from 'rocket-ui-admin/packages/button';
-import {t} from 'rocket-ui-admin/src/locale';
+import ElPopover from '@aiwins/admin-ui/packages/popover';
+import ElButton from '@aiwins/admin-ui/packages/button';
+import {t} from '@aiwins/admin-ui/src/locale';
 
 export default {
   name: 'ElPopconfirm',

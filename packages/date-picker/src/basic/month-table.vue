@@ -13,10 +13,10 @@
 </template>
 
 <script type="text/babel">
-  import Locale from 'rocket-ui-admin/src/mixins/locale';
-  import { isDate, range, getDayCountOfMonth, nextDate } from 'rocket-ui-admin/src/utils/date-util';
-  import { hasClass } from 'rocket-ui-admin/src/utils/dom';
-  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from 'rocket-ui-admin/src/utils/util';
+  import Locale from '@aiwins/admin-ui/src/mixins/locale';
+  import { isDate, range, getDayCountOfMonth, nextDate } from '@aiwins/admin-ui/src/utils/date-util';
+  import { hasClass } from '@aiwins/admin-ui/src/utils/dom';
+  import { arrayFindIndex, coerceTruthyValueToArray, arrayFind } from '@aiwins/admin-ui/src/utils/util';
 
   const datesInMonth = (year, month) => {
     const numOfDays = getDayCountOfMonth(year, month);

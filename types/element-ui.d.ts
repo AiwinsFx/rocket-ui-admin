@@ -87,11 +87,11 @@ export interface InstallationOptions {
   size: string
 }
 
-/** The version of rocket-ui-admin */
+/** The version of @aiwins/admin-ui */
 export const version: string
 
 /**
- * Install all rocket-ui-admin components into Vue.
+ * Install all @aiwins/admin-ui components into Vue.
  * Please do not invoke this method directly.
  * Call `Vue.use(ElementUI)` to install.
  */

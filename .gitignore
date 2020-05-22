@@ -12,12 +12,12 @@ lib
 .idea
 .vscode
 .jsconfig.json
-examples/rocket-ui-admin
+examples/@aiwins/admin-ui
 examples/pages/en-US
 examples/pages/zh-CN
 examples/pages/es
 examples/pages/fr-FR
-fe.element/rocket-ui-admin
+fe.element/@aiwins/admin-ui
 .npmrc
 coverage
 waiter.config.js

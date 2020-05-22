@@ -1,5 +1,5 @@
 <script>
-  import Emitter from 'rocket-ui-admin/src/mixins/emitter';
+  import Emitter from '@aiwins/admin-ui/src/mixins/emitter';
 
   export default {
     name: 'ElCheckboxGroup',

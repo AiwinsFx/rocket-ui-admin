@@ -1,6 +1,6 @@
-import objectAssign from 'rocket-ui-admin/src/utils/merge';
+import objectAssign from '@aiwins/admin-ui/src/utils/merge';
 import { markNodeData, NODE_KEY } from './util';
-import { arrayFindIndex } from 'rocket-ui-admin/src/utils/util';
+import { arrayFindIndex } from '@aiwins/admin-ui/src/utils/util';
 
 export const getChildState = node => {
   let all = true;

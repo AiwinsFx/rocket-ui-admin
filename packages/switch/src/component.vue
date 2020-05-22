@@ -36,9 +36,9 @@
   </div>
 </template>
 <script>
-  import emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Focus from 'rocket-ui-admin/src/mixins/focus';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+  import emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Focus from '@aiwins/admin-ui/src/mixins/focus';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
 
   export default {
     name: 'ElSwitch',

@@ -28,7 +28,7 @@
 </template>
 
 <script>
-  import ElTooltip from 'rocket-ui-admin/packages/tooltip';
+  import ElTooltip from '@aiwins/admin-ui/packages/tooltip';
 
   export default {
     name: 'ElSliderButton',

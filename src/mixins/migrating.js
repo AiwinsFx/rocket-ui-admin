@@ -1,9 +1,9 @@
-import { kebabCase } from 'rocket-ui-admin/src/utils/util';
+import { kebabCase } from '@aiwins/admin-ui/src/utils/util';
 /**
  * Show migrating guide in browser console.
  *
  * Usage:
- * import Migrating from 'rocket-ui-admin/src/mixins/migrating';
+ * import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
  *
  * mixins: [Migrating]
  *

@@ -1,8 +1,8 @@
 <script type="text/jsx">
-  import emitter from 'rocket-ui-admin/src/mixins/emitter';
-  import Migrating from 'rocket-ui-admin/src/mixins/migrating';
-  import Menubar from 'rocket-ui-admin/src/utils/menu/aria-menubar';
-  import { addClass, removeClass, hasClass } from 'rocket-ui-admin/src/utils/dom';
+  import emitter from '@aiwins/admin-ui/src/mixins/emitter';
+  import Migrating from '@aiwins/admin-ui/src/mixins/migrating';
+  import Menubar from '@aiwins/admin-ui/src/utils/menu/aria-menubar';
+  import { addClass, removeClass, hasClass } from '@aiwins/admin-ui/src/utils/dom';
 
   export default {
     name: 'ElMenu',
