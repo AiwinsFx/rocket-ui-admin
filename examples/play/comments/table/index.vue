@@ -33,7 +33,6 @@
       <el-table-column
        prop="address" 
       label="地址" 
-              :filter-multiple="false"
         :filters="
 [{ text: '家', value: '家' }, { text: '公司', value: '公司' }]"
       show-overflow-tooltip>

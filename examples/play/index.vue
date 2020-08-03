@@ -4,17 +4,14 @@
     <el-tag class="tags" type="success">标签二</el-tag>
     <el-alert title="成功提示的文案" type="success"></el-alert>
     <el-button type="primary">11</el-button>
-    <el-button>默认按钮</el-button>
+    <el-button @click="open">默认按钮</el-button>
     <lhb-select></lhb-select>
     <lhb-input></lhb-input>
     <lhb-picker></lhb-picker>
     <lhb-table></lhb-table>
     <lhb-pagination></lhb-pagination>
     <lhb-tree></lhb-tree>
-    <el-cascader
-      :options="options"
-      :props="{ expandTrigger: 'hover' }"
-    ></el-cascader>
+    <el-cascader :options="options" :props="{ expandTrigger: 'hover' }"></el-cascader>
   </div>
 </template>
 
@@ -39,7 +36,7 @@ export default {
   data() {
     return {
       input: "Hello Element UI!",
-            options: [
+      options: [
         {
           value: "经纪人",
           label: "经纪人",
@@ -78,6 +75,18 @@ export default {
     },
     handleClose(key, keyPath) {
       console.log(key, keyPath);
+    },
+    open() {
+      this.$confirm(`是否移除该岗位？`, "移除部门提示", {
+        confirmButtonText: "确定",
+        cancelButtonText: "取消"
+      })
+        .then(() => {
+
+        })
+        .catch(() => {
+          console.log("已取消");
+        });
     }
   }
 };
