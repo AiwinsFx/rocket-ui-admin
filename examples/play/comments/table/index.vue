@@ -82,11 +82,11 @@ export default {
           name: '王小虎',
           address: '上海市普陀区金沙江路 1518 弄',
         },
-        {
-          date: '2016-05-07',
-          name: '王小虎',
-          address: '上海市普陀区金沙江路 1518 弄',
-        },
+        // {
+        //   date: '2016-05-07',
+        //   name: '王小虎',
+        //   address: '上海市普陀区金沙江路 1518 弄',
+        // },
       ],
       multipleSelection: [],
     }
