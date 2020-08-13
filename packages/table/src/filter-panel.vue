@@ -22,6 +22,7 @@
         </el-scrollbar>
       </div>
       <div class="el-table-filter__bottom">
+        <button @click="handleReset" :class="{ 'is-disabled': filteredValue.length === 0 }" :disabled="filteredValue.length === 0">{{ t('el.table.resetFilter') }}</button>
         <button
           @click="handleConfirm"
           :class="{ 'is-disabled': filteredValue.length === 0 }"
@@ -29,7 +30,6 @@
         >
           {{ t('el.table.confirmFilter') }}
         </button>
-        <button @click="handleReset">{{ t('el.table.resetFilter') }}</button>
       </div>
     </div>
     <div

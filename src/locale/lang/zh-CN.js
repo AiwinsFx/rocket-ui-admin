@@ -73,7 +73,7 @@ export default {
     pagination: {
       goto: '前往',
       pagesize: '条/页',
-      total: '共 {total} 条',
+      total: '共 {total} 条数据',
       pageClassifier: '页'
     },
     messagebox: {
